@@ -1,0 +1,17 @@
+html
+    head
+        title= title
+
+        link(rel='stylesheet' type='text/css' href='static/vendors/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet' type='text/css' href='static/css/main.css')
+
+        script(src='static/vendors/jquery/dist/jquery.min.js')
+        script(src='static/vendors/angular/angular.min.js')
+        script(src='static/vendors/angular-ui-router/release/angular-ui-router.min.js')
+
+        script(src='static/js/services.js')
+        script(src='static/js/controllers.js')
+        script(src='static/js/main.js')
+
+    body(ng-app='node-angular-seed')
+        h1= message

@@ -1,0 +1,26 @@
+{
+  "name": "node-angular-starter",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Anand Singh Kunwar <anandkunwar95@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "4"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "bootstrap": "^3.3.7",
+    "angular-ui-router": "ui-router#^0.3.2"
+  }
+}
