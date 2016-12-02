@@ -14,4 +14,8 @@ html
         script(src='static/js/main.js')
 
     body(ng-app='node-angular-seed')
+        | <a ui-sref="hello" ui-sref-active="active">Hello</a>
+        | <a ui-sref="about" ui-sref-active="active">About</a>
+
+        | <ui-view></ui-view>
         h1= message
